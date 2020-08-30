@@ -8,5 +8,6 @@
 </head>
 <body>
 <h1> Welcome to the FIR Management System.</h1>
+<a href="addUser.html">Add user</a>
 </body>
 </html>
