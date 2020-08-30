@@ -40,6 +40,7 @@ public class UserDao {
 	
 	public void addUser(User user){
 		users.add(user);
+		System.out.println("User Added Successfully");
 	}
 	
 	public List<User> getAllUser(){
@@ -50,6 +51,10 @@ public class UserDao {
 		
 		for(User u: users)if (u.getId() == id)return u;
 		return null;
+	}
+	
+	public int getNewId(){
+		return users.size() +1;
 	}
 	
 	

@@ -185,14 +185,14 @@
   </head>
   <body>
     <div class="testbox">
-      <form action="/">
+      <form action="addUser.jsp" method="post">
         <div class="banner">
           <h1>Add User Form</h1>
         </div>
         <div class="item">
-          <p>Name</p>
+          <p>Username</p>
           <div class="name-item">
-            <input type="text" name="name" placeholder="First" />
+            <input type="text" name="username" placeholder="First" />
           </div>
         </div>
         <div class="item">
@@ -200,23 +200,37 @@
           <input type="text" name="email"/>
         </div>
         <div class="item">
-          <p>Phone</p>
-          <input type="text" name="mobile"/>
+          <p>password</p>
+          <input type="text" name="password"/>
+        </div>
+        
+        
+        <div class="item">
+          <p>Name</p>
+          <input type="text" name="name"/>
         </div>
         <div class="item">
           <p>Age</p>
           <input type="text" name="age"/>
         </div>
         <div class="item">
-          <p>Contact Address</p>
-          <input type="text" name="name" placeholder="Street address" />
+          <p>Address</p>
+          <input type="text" name="address"/>
         </div>
         <div class="item">
-          <p>Notes</p>
-          <textarea rows="3"></textarea>
+          <p>Mobile</p>
+          <input type="text" name="mobile"/>
+        </div>
+        <div class="item">
+          <p>Adhaar</p>
+          <input type="text" name="adhaar" />
+        </div>
+        <div class="item">
+          <p>Gender</p>
+          <input type="text" name="gender"  />
         </div>
         <div class="btn-block">
-          <button type="submit" href="/">SEND</button>
+          <button type="submit">Add User</button>
         </div>
       </form>
     </div>
